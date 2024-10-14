@@ -100,15 +100,3 @@ model.sample(
 ## License
 
 This project is under Apache License 2.0.
-
-## Citation
-
-If you find our work useful, please consider citing our paper:
-```
-@article{chen2022corpusbrain,
-  title={CorpusBrain: Pre-train a Generative Retrieval Model for Knowledge-Intensive Language Tasks},
-  author={Chen, Jiangui and Zhang, Ruqing and Guo, Jiafeng and Liu, Yiqun and Fan, Yixing and Cheng, Xueqi},
-  journal={arXiv preprint arXiv:2208.07652},
-  year={2022}
-}
-```
