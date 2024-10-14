@@ -1,14 +1,4 @@
-# CorpusBrain
-
-This is the source code for paper "[CorpusBrain: Pre-train a Generative Retrieval Model for Knowledge-Intensive Language Tasks](https://arxiv.org/abs/2208.07652)".
-
-## Introduction
-
-![Overview](./figures/overview.png)
-
-**CorpusBrain** is a pre-trained generative retrieval model, which could encode all information about the corpus in its parameters without the need of constructing additional index.
-Furthermore, **CorpusBrain** can dramatically simplify the search process and be optimized in an end-to-end manner by replacing the traditional multi-step search pipeline with a novel single-step generative model.
-We show that a strong generative retrieval model can be learned with a set of adequately designed pre-training tasks, and be adopted to improve a variety of downstream retrieval tasks with further fine-tuning.
+# GR OOD
 
 ## Requirements and Installation
 
@@ -47,9 +37,6 @@ To pre-train the model, run the following command:
 ```bash
 bash scripts/train.sh $DATASET_PATH $NAME
 ```
-
-## Fine-tuning
-CorpusBrain have the same architecture with `BART-Large`, and thus you can fine-tune CorpusBrain like BART on any downstream retrieval tasks by just replacing BART checkpoints with CorpusBrain's.
 
 ### Download KILT Data
 
